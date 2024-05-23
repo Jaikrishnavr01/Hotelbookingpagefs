@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": "31f6",
+      "name": "dfdf",
+      "email": "jk@jhj.ci",
+      "password": "123456"
+    }
+  ],
+  "Rooms": [
+    {
+      "id": "af03",
+      "roomType": "Executive-ac",
+      "roomNumber": 3,
+      "roomStatus": "Available",
+      "roomGuestName": "gfg",
+      "roomGuestEmail": "jaikrishnavr@outlook.com",
+      "roomGuestPhone": "1221212",
+      "roomCapacity": "2",
+      "roomNights": "12",
+      "roomCheckIn": "2024-05-17",
+      "roomCheckOut": "2024-05-17",
+      "roomPrice": 36000
+    }
+  ]
+}

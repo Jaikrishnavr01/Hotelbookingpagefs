@@ -1,0 +1,36 @@
+
+.fade-in-left {
+    animation: fadeLeft 1s ease-out;
+  }
+
+  .fade-in-left h4{
+    font-weight: 700;
+  }
+  
+  .fade-in-right {
+    float: right;
+    animation: fadeRight 1s ease-out;
+  }
+  
+  @keyframes fadeLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeRight {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  

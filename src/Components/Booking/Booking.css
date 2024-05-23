@@ -1,0 +1,43 @@
+/* Booking.css */
+
+/* General Styles */
+.booking-container {
+  max-width: 800px; /* Adjust max-width as needed */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.booking-form {
+  margin-bottom: 20px;
+}
+
+.progress {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-top: 0;
+  border: 1px solid grey;
+border-radius: 15px;
+}
+
+.progress span {
+  flex: 1;
+  text-align: center;
+}
+
+.progress .active {
+  color: red;
+  font-weight: bold;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .booking-container {
+    padding: 10px;
+  }
+
+}
